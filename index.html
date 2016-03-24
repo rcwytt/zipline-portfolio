@@ -10,7 +10,7 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
 
-    <link rel="stylesheet" href="css/portfolio_responsive.css">
+    <link rel="stylesheet" href="css/portfolio_responsive.min.css">
 
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
 
@@ -28,27 +28,27 @@
 
 		  <div class="container-fluid">
 
-			<div class="navbar-header">
+			  <div class="navbar-header">
 
-			  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#siteNavbar">
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-				<span class="icon-bar"></span>
-			  </button>
+			    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#siteNavbar">
+  				  <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+				    <span class="icon-bar"></span>
+			    </button>
 
-			  <!-- TODO: update font color -->
-			  <a class="navbar-brand" href="#">Eric Wyatt</a>
+			    <a class="navbar-brand" href="#home">Eric Wyatt</a>
 
-			</div>
+			  </div>
 
 			<div class="collapse navbar-collapse" id="siteNavbar">
 
 			  <ul class="nav navbar-nav navbar-right">
-				<!-- TODO: set :hover for active anchors -->
-				<li class="active"><a href="#home">Home</a></li>
-				<li class="active"><a href="#about">About</a></li>
-				<li class="active"><a href="#portfolio">Portfolio</a></li>
-				<li class="active"><a href="#contact">Contact</a></li>
+
+				  <li class="active hvr-ripple-out"><a href="#home">Home</a></li>
+				  <li class="active hvr-ripple-out"><a href="#about">About</a></li>
+				  <li class="active hvr-ripple-out"><a href="#portfolio">Portfolio</a></li>
+				  <li class="active hvr-ripple-out"><a href="#contact">Contact</a></li>
+
 			  </ul>
 
 			</div>
@@ -67,11 +67,11 @@
 
         <div class="btn-group-lg">
 
-          <button id="red-orange-btn" class="btn btn-default btn-lg portfolio-btn"><a href="#">Github</a></button>
+          <button id="red-orange-btn" class="btn btn-default btn-lg portfolio-btn"><a href="https://github.com/rcwytt" target="_blank">Github</a></button>
 
-          <button id="yellow-blue-btn" class="btn btn-default btn-lg portfolio-btn"><a href="#">freeCodeCamp</a></button>
+          <button id="yellow-blue-btn" class="btn btn-default btn-lg portfolio-btn"><a href="https://www.freecodecamp.com/rcwytt" target="_blank">freeCodeCamp</a></button>
 
-          <button id="blue-purple-btn" class="btn btn-default btn-lg portfolio-btn"><a href="#">LinkedIn</a></button>
+          <button id="blue-purple-btn" class="btn btn-default btn-lg portfolio-btn"><a href="https://www.linkedin.com/in/wyatteric" target="_blank">LinkedIn</a></button>
 
         </div>
         <!--btn-group-lg-->
@@ -89,25 +89,16 @@
 
       <section id="about" class="layoutsctn">
 
-        <!--<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas interdum ipsum, fringilla posuere massa tempus vitae. Sed metus massa, dignissim quis mauris ac, varius dapibus lectus. Morbi sed sapien aliquam, tincidunt ipsum sed, rhoncus tortor. Mauris quis dui viverra, rhoncus diam ut, vehicula nisl. Nam ut metus ut urna suscipit vehicula ut ac augue. Proin elementum id enim a volutpat. Nulla dapibus nulla nibh, vel tincidunt purus pellentesque sit amet. Praesent id placerat nisl. Suspendisse vulputate porttitor ligula nec aliquet. Pellentesque laoreet hendrerit augue imperdiet scelerisque. Mauris justo erat, ultrices ac sapien vitae, auctor dictum ante. Vestibulum iaculis nunc mi, eu sollicitudin nunc posuere quis. Ut tincidunt tincidunt odio vel finibus.</p>-->
-
-        <!--<img id="about-img" class="img-responsive img-circle hidden-xs" src="images\about_img.jpg">-->
-
-  <!--      <div class="row">
-          <div class="col-xs-12">
-          </div>
-        </div>-->
-
         <div class="row">
 
           <div class="col-sm-7">
             <h1 class="header-md">LB Web Designs</h1>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce egestas interdum ipsum, fringilla posuere massa tempus vitae. Sed metus massa, dignissim quis mauris ac, varius dapibus lectus. Morbi sed sapien aliquam, tincidunt ipsum sed, rhoncus tortor. Mauris quis dui viverra, rhoncus diam ut, vehicula nisl. Nam ut metus ut urna suscipit vehicula ut ac augue. Proin elementum id enim a volutpat. Nulla dapibus nulla nibh, vel tincidunt purus pellentesque sit amet. Praesent id placerat nisl. Suspendisse vulputate porttitor ligula nec aliquet. Pellentesque laoreet hendrerit augue imperdiet scelerisque. Mauris justo erat, ultrices ac sapien vitae, auctor dictum ante. Vestibulum iaculis nunc mi, eu sollicitudin nunc posuere quis. Ut tincidunt tincidunt odio vel finibus.</p>
           </div>
+
           <div class="col-sm-4 col-sm-offset-1 hidden-xs">
-            <!--<img class="img-responsive img-circle" src="http://s-media-cache-ak0.pinimg.com/236x/21/5c/08/215c0895ab12944689459c21a920e8ac.jpg">-->
             <img class="img-responsive img-circle" src="images\giraffe-xs.jpg">
-            <!--src="http://www.publicdomainpictures.net/pictures/60000/nahled/giraffe-silhouette-at-sunset.jpg">-->
+            <!-- original image found here http://pre07.deviantart.net/f342/th/pre/f/2012/278/6/3/sunset_giraffe_by_surpriselilydesigns-d5gx80d.jpg -->
           </div>
 
         </div>
@@ -116,95 +107,6 @@
       <!--about-->
 
       <section id="portfolio" class="layoutsctn">
-
-  <!--
-        <div class="horizontal-align">
-          <h1 class="header-md">Portfolio</h1>
-          <p class="header-sm">Here you will find some of our recent work</p>
-        <div>
-
-        <div class="thumbnail-grid">
-
-          <div class="thumbnail hvr-ripple-out">
-
-            <div class="thumbnail-content">
-
-              <img class="thumbnail-img" src="images/thumbnail-bg-coming-soon.jpg">
-              <p class="thumbnail-text"><span class="thumbnail-cap-lg">Coming Soon...</span><br>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-
-              <div class="thumbnail-overlay thumbnail-overlay-fcc hvr-fade-test"></div>
-
-           </div>
-
-          </div>
-
-          <div class="thumbnail hvr-ripple-out">
-
-            <div class="thumbnail-content">
-
-              <img class="thumbnail-img" src="images/thumbnail-bg-coming-soon.jpg">
-              <p class="thumbnail-text"><span class="thumbnail-cap-lg">Coming Soon...</span><br>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-
-              <div class="thumbnail-overlay thumbnail-overlay-fcc hvr-fade-test"></div>
-
-           </div>
-
-          </div>
-
-          <div class="thumbnail hvr-ripple-out">
-
-            <div class="thumbnail-content">
-
-              <img class="thumbnail-img" src="images/thumbnail-bg-coming-soon.jpg">
-              <p class="thumbnail-text"><span class="thumbnail-cap-lg">Coming Soon...</span><br>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-
-              <div class="thumbnail-overlay thumbnail-overlay-fcc hvr-fade-test"></div>
-
-           </div>
-
-          </div>
-
-          <div class="thumbnail hvr-ripple-out">
-
-            <div class="thumbnail-content">
-
-              <img class="thumbnail-img" src="images/thumbnail-bg-coming-soon.jpg">
-              <p class="thumbnail-text"><span class="thumbnail-cap-lg">Coming Soon...</span><br>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-
-              <div class="thumbnail-overlay thumbnail-overlay-fcc hvr-fade-test"></div>
-
-           </div>
-
-          </div>
-
-          <div class="thumbnail hvr-ripple-out">
-
-            <div class="thumbnail-content">
-
-              <img class="thumbnail-img" src="images/thumbnail-bg-coming-soon.jpg">
-              <p class="thumbnail-text"><span class="thumbnail-cap-lg">Coming Soon...</span><br>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-
-              <div class="thumbnail-overlay thumbnail-overlay-fcc hvr-fade-test"></div>
-
-           </div>
-
-          </div>
-
-          <div class="thumbnail hvr-ripple-out">
-
-            <div class="thumbnail-content">
-
-              <img class="thumbnail-img" src="images/thumbnail-bg-coming-soon.jpg">
-              <p class="thumbnail-text"><span class="thumbnail-cap-lg">Coming Soon...</span><br>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
-
-              <div class="thumbnail-overlay thumbnail-overlay-fcc hvr-fade-test"></div>
-
-           </div>
-
-          </div>
-
-        </div>
-      -->
 
         <!--layoutsctn flexes rows, wrap bootstrap rows so they are not flex items-->
         <div class="container">
@@ -324,11 +226,11 @@
 
         <div class="btn-group-lg btn-group-vert">
 
-          <button class="contact-button"><a href="#"><span class="fa fa-github hidden-xs"></span> Github</a></button>
+          <button class="contact-button"><a href="https://github.com/rcwytt" target="_blank"><span class="fa fa-github hidden-xs"></span> Github</a></button>
 
-          <button class="contact-button"><a href="#"><span class="fa fa-fire hidden-xs"></span> freeCodeCamp</a></button>
+          <button class="contact-button"><a href="https://www.freecodecamp.com/rcwytt" target="_blank"><span class="fa fa-fire hidden-xs"></span> freeCodeCamp</a></button>
 
-          <button class="contact-button"><a href="#"><span class="fa fa-linkedin hidden-xs"></span> LinkedIn</a></button>
+          <button class="contact-button"><a href="https://www.linkedin.com/in/wyatteric" target="_blank"><span class="fa fa-linkedin hidden-xs"></span> LinkedIn</a></button>
 
         </div>
         <!--btn-group-->
@@ -357,7 +259,6 @@
   <!--page-->
 
   <!-- Latest compiled and minified JavaScript -->
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>-->
   <script src="scripts/jquery.min.js"></script>
   <script src="scripts/bootstrap.min.js"></script>
   <script src="scripts/portfolio.js"></script>
